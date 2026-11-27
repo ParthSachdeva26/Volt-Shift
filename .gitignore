@@ -24,3 +24,13 @@ Desktop.ini
 # Logs & temp
 *.log
 .turbo
+
+# Python / model training
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+model-training/data/raw/
+model-training/data/processed/
+model-training/models/checkpoint.pkl
